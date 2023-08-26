@@ -83,6 +83,7 @@ export async function runRealEstateScraper(url) {
   try {
     const results = await scrapeRealEstateData(url);
     console.log(results);
+    return results;
   } catch (error) {
     console.error("An error occurred:", error);
   }
