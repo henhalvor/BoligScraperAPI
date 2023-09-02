@@ -1,5 +1,5 @@
-import express from "express";
-import { runRealEstateScraper } from "./realestateScraper.js";
+const express = require("express");
+const { runRealEstateScraper } = require('./realEstateScraper');
 
 const app = express();
 
